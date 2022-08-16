@@ -1,0 +1,33 @@
+.comment {
+  border-top: 1px solid #ebebeb;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.comment .comment-image {
+  width: 65px;
+}
+
+.comment .comment-image img {
+  width: 50px;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.comment .name {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 2px 0;
+}
+
+.comment .date {
+  font-size: 13px;
+  margin: 2px 0;
+  color: rgb(127, 127, 127);
+}
+
+.comment .comment-text {
+  margin: 2px 0;
+}

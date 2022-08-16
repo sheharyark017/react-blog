@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+  border-bottom: 1px solid #b2b2b2;
+  box-shadow: 0 0 5px 0 #b2b2b2;
+}
+
+.header .logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header .nav ul {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.header .nav ul li {
+  list-style: none;
+  font-size: 17px;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+.header .nav ul li a {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+.header .nav ul li:hover,
+.header .nav ul li a.active {
+  color: #006ec8;
+}
+
+.hamburger span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+  border-radius: 99px;
+  transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px);
+}
+.hamburger.active span:nth-child(2) {
+  display: none;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px);
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-btn {
+  border: none;
+  background-color: #1177cb;
+  color: #fff;
+  padding: 7px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .header {
+    padding: 20px 25px;
+    align-items: center;
+    border-bottom: 1px solid #b2b2b2;
+    box-shadow: 0 0 5px 0 #b2b2b2;
+  }
+
+  .header .logo {
+    font-size: 26px;
+  }
+
+  .header nav {
+    overflow-y: scroll;
+    display: block;
+    max-height: 0;
+    position: absolute;
+    background-color: #ececec;
+    z-index: 98;
+    top: 50px;
+    left: 0;
+    margin-top: 20px;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .header nav.active {
+    max-height: 350px;
+  }
+
+  .header .nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .nav ul li a {
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-btn {
+    width: 100%;
+    margin: 2px 0;
+  }
+}

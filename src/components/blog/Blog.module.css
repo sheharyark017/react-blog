@@ -1,0 +1,90 @@
+.blog-main {
+  width: 32%;
+  margin-bottom: 20px;
+  /* box-shadow: 0 0 5px 0 #969696; */
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+a {
+  color: #000;
+}
+.blog {
+  /* display: flex; */
+}
+
+.blog .image {
+  height: 170px;
+}
+
+.blog .image img {
+  width: 100%;
+  object-fit: cover;
+  position: center;
+  height: 100%;
+}
+
+.blog .user {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.blog .user .user-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.blog .user .user-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.blog .user .name {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.blog .user .date {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.blog .text {
+  margin-top: 15px;
+}
+
+.blog .text .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.blog .text .date {
+  font-size: 14px;
+  color: #4d4d4d;
+  margin: 0 0 5px 0;
+}
+
+.blog .text .desc {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.blog .text .link {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+  color: rgb(3, 81, 184);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-main {
+    width: 100%;
+  }
+}

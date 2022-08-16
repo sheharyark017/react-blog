@@ -1,0 +1,23 @@
+.blog-detail-page {
+  display: flex;
+}
+
+.blog-detail-page .left {
+  width: 70%;
+  padding-right: 15px;
+}
+
+.blog-detail-page .right {
+  width: 30%;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-detail-page .left {
+    width: 100%;
+    padding: 0;
+  }
+  .blog-detail-page .right {
+    display: none;
+  }
+}

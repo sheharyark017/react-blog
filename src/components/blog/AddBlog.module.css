@@ -1,0 +1,83 @@
+.publish {
+  text-align: right;
+  padding: 20px;
+}
+
+.publish button {
+  border: none;
+  background: rgb(94, 188, 127);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 99px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.publish button:disabled {
+  background: #5ebc7f9d;
+  cursor: not-allowed;
+}
+
+.image-input {
+  background-size: cover;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.image-input button {
+  position: absolute;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 99px;
+  color: rgb(59, 59, 59);
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgb(105, 105, 105);
+  aspect-ratio: 1;
+  top: 50%;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+}
+
+.image-input img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.form-control .title {
+  width: 100%;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.form-control .title:focus {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.form-control .desc {
+  width: 100%;
+  border: none;
+  height: 600px;
+  resize: none;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.form-control .desc:focus {
+  outline: none;
+}
+
+.progress {
+  /* height: 4px; */
+  background-color: rgb(45, 103, 203);
+  box-shadow: 0 0 5px 0 rgb(199, 199, 199);
+  height: 6px;
+}

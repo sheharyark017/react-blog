@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.main {
+  padding: 0px 60px;
+  margin: auto;
+  max-width: 1300px;
+  min-height: 80vh;
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding: 20px 15px;
+  }
+}

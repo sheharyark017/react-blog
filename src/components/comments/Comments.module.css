@@ -1,0 +1,17 @@
+.Comments {
+  margin-bottom: 20px;
+}
+
+.comment-count {
+  font-weight: 500;
+}
+
+.signin {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.signin a {
+  color: rgb(0, 106, 255);
+  text-decoration: underline;
+}

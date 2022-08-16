@@ -1,0 +1,62 @@
+.form {
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+}
+
+.form .head {
+  text-align: center;
+}
+
+.form .head p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form .form-control {
+  margin-bottom: 15px;
+}
+
+.form .form-control label {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form .form-control input {
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+}
+
+.form .form-control input:focus {
+  outline: none;
+  border: 1px solid #0f75ce;
+}
+
+.form .form-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form .form-button button {
+  padding: 10px 30px;
+  background: #0f75ce;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-link .link {
+  border-bottom: 1px solid;
+}

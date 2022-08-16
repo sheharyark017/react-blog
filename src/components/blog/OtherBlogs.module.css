@@ -1,0 +1,33 @@
+.other-blog .head {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.other-blog .blog {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.other-blog .blog .title {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.other-blog .blog .date {
+  color: #919191;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.other-blog .blog .desc {
+  margin: 5px 0;
+}
+
+.other-blog .blog .continue {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+  color: rgb(3, 81, 184);
+  font-weight: 500;
+}
